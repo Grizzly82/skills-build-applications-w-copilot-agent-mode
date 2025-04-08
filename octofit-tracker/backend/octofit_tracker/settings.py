@@ -19,8 +19,8 @@ DATABASES = {
     }
 }
 
-# Allow all hosts
-ALLOWED_HOSTS = ['*']
+# Add the codespace URL and localhost to ALLOWED_HOSTS
+ALLOWED_HOSTS = ['localhost', '127.0.0.1', 'verbose-spork-rpwjvw6qv43pg5p-8000.app.github.dev']
 
 # Enable CORS for all origins
 CORS_ALLOW_ALL_ORIGINS = True
